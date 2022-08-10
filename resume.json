@@ -1,0 +1,251 @@
+{
+  "basics": {
+    "name": "Shu-Ling Chang",
+    "label": "Software Developer",
+    "picture": "http://www.piedpiper.com/app/themes/pied-piper/dist/images/richard.png",
+    "email": "taris.chang@gmail.com",
+    "website": "http://codingbeginner01.com",
+    "summary": "A software development expert with 4+ years of experience in IT services. A collaborative and independent engineer with experience in  API development, web development and programming teaching. An enthusiastic programmer who taught herself to program in Golang, SQL, Python, JavaScript, and other languages. She's someone who thrives solving problems.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "shu-ling-chang",
+        "url": "https://www.linkedin.com/in/shu-ling-chang"
+      },
+      {
+        "network": "Instagram",
+        "username": "codingbeginner01",
+        "url": "https://www.instagram.com/codingbeginner01/"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS / SCSS",
+        "Bootstrap",
+        "Javascript",
+        "JQuery",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "API Development",
+      "level": "Master",
+      "keywords": ["PHP / Laravel", "Golang", "Python"]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": ["MySQL", "Redis"]
+    },
+    {
+      "name": "Version Control",
+      "level": "Master",
+      "keywords": ["Git (GitHub / GitLab)", "SVN"]
+    },
+    {
+      "name": "Others",
+      "level": "Master",
+      "keywords": ["Docker", "Linux", "Postman", "Swagger", "Teamwork"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    }
+  ],
+  "work": [
+    {
+      "name": "HLW Tech",
+      "position": "Golang Engineer",
+      "website": "http://www.hlwtech.com.tw/",
+      "startDate": "2022-03-23",
+      "summary": "HLW Tech is a China-based game services firm with ~60+ employees. Its markets are in Southeast Asia.",
+      "highlights": [
+        {
+          "title": "Programming in PHP and Golang",
+          "content": "Develops 4 Golang projects and a PHP project. Uses several skills, including  Go, PHP, MySQL, Redis, RPC, JavaScript, HTML, Docker, etc."
+        },
+        {
+          "title": "API & Web Development",
+          "contents": [
+            {
+              "name": "Game server systems",
+              "description": "These systems provide APIs for Cocos front-end fishing casino game."
+            },
+            {
+              "name": "Stress testing system",
+              "description": "Perform stress testing for game server systems."
+            },
+            {
+              "name": "PHP backstage & APIs system",
+              "description": "This system helps customer services (CS) to add, delete, update and search data, including members, betting orders, game settings, statistical reports, etc."
+            }
+          ]
+        },
+        {
+          "title": "Teamwork and Cross-functional Communication",
+          "content": "Uses git flows, merge request and code review to collaborate with 2 Golang partners and communicate cross-functionally with front-end teams and quality assurance (QA) teams."
+        }
+      ]
+    },
+    {
+      "name": "LCC Net",
+      "position": "Programming Teacher",
+      "website": "https://www.lccnet.com.tw/lccnet",
+      "startDate": "2019-12-19",
+      "endDate": "2022-05-01",
+      "summary": "LCC Net is a Taiwan-based professional skilled teaching firm with ~300+ employees.",
+      "highlights": [
+        {
+          "title": "Python",
+          "content": "Taught basic syntax, web crawler, web development (Django - Basic), data analysis with pandas and numpy."
+        },
+        {
+          "title": "MySQL",
+          "content": "Taught CRUD, join, groupby, sub query, etc."
+        },
+        {
+          "title": "Web Layout",
+          "content": "Taught HTML, CSS and Bootstrap."
+        }
+      ]
+    },
+    {
+      "name": "Feng Chia University",
+      "position": "Contracted Programming Lecturer",
+      "website": "https://www.fcu.edu.tw/",
+      "startDate": "2021-3-01",
+      "endDate": "2021-05-01",
+      "summary": "Feng Chia University is a Taiwan University.",
+      "highlights": [
+        {
+          "title": "MySQL",
+          "content": "Taught CRUD, join, groupby, sub query."
+        },
+        {
+          "title": "Web Layout",
+          "content": "Taught HTML, CSS and Bootstrap."
+        }
+      ]
+    },
+    {
+      "name": "Vangood Tech",
+      "position": "Backend Engineer",
+      "website": "https://www.vangoodtech.com/",
+      "startDate": "2020-05-01",
+      "endDate": "2021-03-01",
+      "summary": "Vangood Tech is a Taiwan-based game services firm with ~1000+ employees.",
+      "highlights": [
+        {
+          "title": "Programming in PHP and Golang",
+          "content": "Developed 2 golang projects and a PHP project. Used several skills, including Go, PHP (Laravel), MySQL, Redis, etc."
+        },
+        {
+          "title": "API & Web Development",
+          "contents": [
+            {
+              "name": "Game activity system",
+              "description": "Used PHP with Laravel framework to build RESTful APIs efficiently. Refactored and optimized old codes and SQL queries. collaborated with 2 partners and front-end teams."
+            },
+            {
+              "name": "Platform API system",
+              "description": "Developed APIs by using Golang with Gin, Gorm, etc. This system provides APIs for a front-end web platform and helps game agencies to CRUD or analyze data, including members, game activities, reports, etc."
+            },
+            {
+              "name": "Data synchronization system",
+              "description": "Used Golang to build a task scheduler system independently,  reorganize data and imports to another team’s database every 15 minutes. Through telegram APIs to notify the synchronized results."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MegaLive",
+      "position": "Backend Engineer",
+      "startDate": "2020-05-01",
+      "endDate": "2021-03-01",
+      "summary": "MegaLive is a Taiwan-based IT services firm with ~30+ employees.",
+      "highlights": [
+        {
+          "title": "Programming in PHP (Laravel)",
+          "content": "Developed a huge Laravel project with the structure of Controller - Service - Repository - Model. Dealt with a large numbers of data (TB) in MySQL."
+        },
+        {
+          "title": "API & Web Development",
+          "contents": [
+            {
+              "name": "Platform API system",
+              "description": "Used Laravel to integrate different casino games across companies, helping other teams use APIs in the same specification."
+            },
+            {
+              "name": "Web backstage system",
+              "description": "Used Laravel with Bootstrap and JQuery to build a backstage system which helped operation engineers (Ops) solve problems from customer services (CS)."
+            }
+          ]
+        },
+        {
+          "title": "Teamwork and Cross-functional Communication",
+          "content": "Used git flows, merge requests and code review to collaborate with 3 partners."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "organization": "Company Website (Remote)",
+      "position": "JIOU CING SHIPBUILDING",
+      "website": "https://www.jioucingyachts.com.tw/",
+      "startDate": "2018-03",
+      "endDate": "2018-04",
+      "summary": "Built a website which included frontstage and backstage in Laravel framework (PHP), MySQL and Bootstrap."
+    },
+    {
+      "organization": "Company Website (Remote)",
+      "position": "CHUAN-GWO COFFER",
+      "website": "http://www.chuan-gwo.com/",
+      "startDate": "2018-05",
+      "endDate": "2018-06",
+      "summary": "Built a website which included frontstage and backstage in Laravel framework (PHP), MySQL and Bootstrap."
+    },
+    {
+      "organization": "Lecture Registration System (Remote)",
+      "position": "佳興成長營",
+      "website": "",
+      "startDate": "2019-06",
+      "endDate": "2019-12",
+      "summary": "Built a website in Laravel framework (PHP), MySQL, Bootstrap and Vue.js. This system helps global members to sign up for lectures via online forms and check in by scanning a QR code. The firm can send notification emails to members, check the attendance rate and area ranking by reports."
+    },
+    {
+      "organization": "Clothes Shopping Website (Remote)",
+      "position": "Originer",
+      "website": "",
+      "startDate": "2022-02",
+      "endDate": "2022-04",
+      "summary": "Built a shopping website which included frontstage and backstage in Laravel framework (PHP), MySQL, HTML, SCSS, and JQuery."
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Kaohsiung University of Science and Technology",
+      "website": "https://www.nkust.edu.tw/",
+      "location": "Taiwan",
+      "specialization": "Bachelor of Marketing, minors in English."
+    },
+    {
+      "institution": "University of Science and Technology Beijing",
+      "website": "https://www.ustb.edu.cn/",
+      "location": "Beijing",
+      "specialization": "One semester exchange.",
+      "courses": ["Computer Architecture,", "Oracle"]
+    }
+  ]
+}

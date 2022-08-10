@@ -43,7 +43,15 @@
       {{#each list}}
         <li class="mb-1">
           <strong><u>{{title}}</u> :</strong>
-          {{content}}
+          {{#if contents}}
+            {{#each contents}}
+              <div>
+                * {{name}} - {{ description }}
+              </div>
+            {{/each}}
+          {{else}}
+            {{content}}
+          {{/if}}
         </li>
       {{/each}}
     </ul>
