@@ -5,7 +5,7 @@
     "picture": "http://www.piedpiper.com/app/themes/pied-piper/dist/images/richard.png",
     "email": "taris.chang@gmail.com",
     "website": "http://codingbeginner01.com",
-    "summary": "A software development expert with 4+ years of experience in IT services. A collaborative and independent engineer with experience in  API development, web development and programming teaching. An enthusiastic programmer who taught herself to program in Golang, SQL, Python, JavaScript, and other languages. She's someone who thrives solving problems.",
+    "summary": "A software development expert with 4+ years of experience in IT services. A collaborative and independent engineer with experience in  API development, web development and programming teaching. An enthusiastic programmer who taught herself to program in PHP, Golang, SQL, Python, JavaScript, and other languages. She's someone who thrives solving problems.",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -99,7 +99,7 @@
     },
     {
       "name": "LCC Net",
-      "position": "Programming Teacher",
+      "position": "Contracted Programming Teacher",
       "website": "https://www.lccnet.com.tw/lccnet",
       "startDate": "2019-12-19",
       "endDate": "2022-05-01",
@@ -129,7 +129,7 @@
       "highlights": [
         {
           "title": "MySQL",
-          "content": "Taught CRUD, join, groupby, sub query."
+          "content": "Taught CRUD, join, groupby, sub query, etc."
         },
         {
           "title": "Web Layout",
@@ -162,7 +162,7 @@
             },
             {
               "name": "Data synchronization system",
-              "description": "Used Golang to build a task scheduler system independently,  reorganize data and imports to another team’s database every 15 minutes. Through telegram APIs to notify the synchronized results."
+              "description": "Used Golang to build a task scheduler system independently,  reorganize data and import to another team’s database every 15 minutes. Through telegram APIs to notify the synchronized results."
             }
           ]
         }
@@ -171,13 +171,13 @@
     {
       "name": "MegaLive",
       "position": "Backend Engineer",
-      "startDate": "2020-05-01",
-      "endDate": "2021-03-01",
+      "startDate": "2018-01-01",
+      "endDate": "2020-03-01",
       "summary": "MegaLive is a Taiwan-based IT services firm with ~30+ employees.",
       "highlights": [
         {
           "title": "Programming in PHP (Laravel)",
-          "content": "Developed a huge Laravel project with the structure of Controller - Service - Repository - Model. Dealt with a large numbers of data (TB) in MySQL."
+          "content": "Developed a huge Laravel project with the structure of Controller - Service - Repository - Model. Dealt with the amount of TB data in MySQL."
         },
         {
           "title": "API & Web Development",
