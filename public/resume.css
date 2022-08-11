@@ -543,6 +543,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex-col {
   flex-direction: column;
 }
+.content-center {
+  align-content: center;
+}
 .items-start {
   align-items: flex-start;
 }
@@ -652,6 +655,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(194 65 12 / var(--tw-text-opacity));
 }
+
 @media print {
 
   .print\:order-2 {
@@ -666,6 +670,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .print\:items-center {
+    align-items: center;
+  }
+
   .print\:justify-between {
     justify-content: space-between;
   }
@@ -675,6 +683,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 }
+
 @media (min-width: 640px) {
 
   .sm\:order-2 {
@@ -693,8 +702,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .sm\:items-center {
+    align-items: center;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:justify-self-start {
+    justify-self: start;
   }
 
   .sm\:text-5xl {
@@ -702,6 +719,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:w-2\/6 {
