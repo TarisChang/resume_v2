@@ -12,7 +12,7 @@ module.exports = {
   HTML_FILENAME: 'index.html',
   CSS_FILENAME: 'resume.css',
 
-  RESUME_PATH: __dirname + '/resume.json',
+  RESUME_PATH: __dirname + '/resume_v2.json',
   FALLBACK_RESUME_PATH: __dirname + '/resume-sample.json',
   helpers: {
     uppercase: function (str) {
