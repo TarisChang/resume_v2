@@ -515,6 +515,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .contents {
   display: contents;
 }
+.w-2\/5 {
+  width: 40%;
+}
 .w-2 {
   width: 0.5rem;
 }
@@ -558,6 +561,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-8 {
   gap: 2rem;
 }
+.justify-self-start {
+  justify-self: start;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -568,6 +574,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-orange-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+.p-4 {
+  padding: 1rem;
 }
 .p-1 {
   padding: 0.25rem;
@@ -602,9 +611,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -676,11 +685,34 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: grid;
   }
 
+  .sm\:w-2\/5 {
+    width: 40%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
 
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:w-2\/6 {
+    width: 33.333333%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 }
